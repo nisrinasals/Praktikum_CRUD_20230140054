@@ -1,13 +1,13 @@
-#User API Spesification
+# User API Spesification
 
-##Create User 
+## Create User 
 Endpoint : POST /api/users
 
 Request Body :
 
 ```json
 {
-  "nama" : "salsa",
+  "nama" : "nisr",
   "usia" : 21
 }
 ```
@@ -19,7 +19,7 @@ Response Body (success) :
 {
   "data": {
     "id": "97a0b858-4a51-4fb4-b189-e03c9a0cfaa4",
-    "name": "salsa",
+    "name": "nisr",
     "usia": 21
   }
 }
@@ -34,7 +34,7 @@ Response Body (failed) :
 }
 ```
 
-##Delete User
+## Delete User
 Endpoint : DELETE /api/users/id
 
 ```json
@@ -51,7 +51,7 @@ Response Body (failed) :
 ```
 
 
-
+## Screenshoot
 ![img.png](img.png)
 kondisi kosong
 
