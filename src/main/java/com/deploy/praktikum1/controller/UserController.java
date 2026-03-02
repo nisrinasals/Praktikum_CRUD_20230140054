@@ -44,7 +44,7 @@ public class UserController {
     }
 
     @GetMapping(
-            path = "/api/users",
+            path = "/api/users/{id}",
             produces = MediaType.APPLICATION_JSON_VALUE
     )
 
