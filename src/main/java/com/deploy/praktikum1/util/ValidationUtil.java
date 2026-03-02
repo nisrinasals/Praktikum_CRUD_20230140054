@@ -1,6 +1,5 @@
 package com.deploy.praktikum1.util;
 
-import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.ConstraintViolationException;
 import jakarta.validation.Validator;
